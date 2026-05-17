@@ -23,15 +23,18 @@ theme:
     - navigation.expand
     - content.code.copy
 
+use_directory_urls: true
 plugins:
   - search
   - i18n:
+      default_language: en
       languages:
         - locale: en
           name: English
           default: true
         - locale: pt
           name: Português
+          build: true
       nav_translations:
         pt:
           Home: Início
