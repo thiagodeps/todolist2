@@ -30,23 +30,10 @@ plugins:
         - locale: en
           name: English
           default: true
+          build: true
         - locale: pt
           name: Português
-      fallback_to_default: true
-      nav_translations:
-        pt:
-          Home: Início
-          Specifications: Especificações
-          Contracts: Contratos
-          Policy: Políticas
-          Spec: Especificação
-          Data Model: Modelo de Dados
-          Research: Pesquisa
-          Implementation Plan: Plano de Implementação
-          Tasks: Tarefas
-          Quickstart: Início Rápido
-          Constitution: Constituição
-          API v1: API v1
+          build: true
 
 nav:
   - Home: index.md
