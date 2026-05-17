@@ -1,0 +1,22 @@
+# Node.js
+node_modules/
+dist/
+build/
+*.log
+.env*
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+virtualenv/
+dist/
+*.egg-info/
+.idea/
+.vscode/
+
+# Project Data
+data/*.json

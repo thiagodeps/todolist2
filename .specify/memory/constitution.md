@@ -1,50 +1,61 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+Sync Impact Report:
+- Version change: 0.0.0 → 1.0.0
+- List of modified principles:
+  - [PRINCIPLE_1_NAME] → I. MVC Architecture & Layering
+  - [PRINCIPLE_2_NAME] → II. Type-Safe Data Transfer (DTOs & Enums)
+  - [PRINCIPLE_3_NAME] → III. Dependency Injection & Decoupling
+  - [PRINCIPLE_4_NAME] → IV. Validation & Security at Entry
+  - [PRINCIPLE_5_NAME] → V. Logical Persistence & Audit
+- Added sections:
+  - Serverless Data Strategy (Section 2)
+  - Error Handling & Exception Policy (Section 3)
+- Removed sections: None
+- Templates requiring updates:
+  - ✅ updated: .specify/templates/plan-template.md
+  - ✅ updated: .specify/templates/spec-template.md
+  - ✅ updated: .specify/templates/tasks-template.md
+- Follow-up TODOs: None
+-->
+
+# TodoLista2 Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. MVC Architecture & Layering
+The project MUST follow the Model-View-Controller pattern. Logic MUST be separated into distinct layers: Models for data structure/persistence, Views (or API responses) for presentation, and Controllers for request orchestration. Business logic MUST reside in Service layers to keep Controllers thin.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Type-Safe Data Transfer (DTOs & Enums)
+All data entering or leaving the system MUST use Data Transfer Objects (DTOs). Primitive types SHOULD be avoided for complex structures. Enums MUST be used for all status fields and fixed sets of constants to ensure strict typing and prevent invalid states.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Dependency Injection & Decoupling
+Dependency Injection (DI) MUST be used to manage component lifecycles and dependencies. Concrete implementations MUST NOT be instantiated directly within consuming classes. This ensures testability via mocking and promotes loose coupling between layers.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Validation & Security at Entry
+All input data MUST be validated at the system boundary using Decorators on DTOs. Security checks MUST be performed on all entry points. Malformed or malicious data MUST be rejected before reaching the service layer.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### V. Logical Persistence & Audit
+The system MUST implement Soft Delete (Logical Exclusion) for all primary entities; records are marked as deleted rather than removed from storage. Every entity MUST include Audit Metadata (createdAt, updatedAt, deletedAt) to track record lifecycle.
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+## Serverless Data Strategy
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+The system operates in a serverless-ready mode using JSON files for persistence.
+- Data MUST be stored in structured JSON format.
+- Persistence logic MUST be abstracted behind Repository interfaces to allow future migration to traditional databases.
+- Concurrent access to JSON files MUST be handled safely if applicable.
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+## Error Handling & Exception Policy
 
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+A Global Exception Handling mechanism MUST be implemented.
+- Uncaught exceptions MUST be intercepted and transformed into standardized error responses.
+- Error responses MUST NOT leak sensitive system details (stack traces) in production.
+- Specific exception types SHOULD be defined for common business failures (e.g., EntityNotFound, ValidationError).
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+This constitution defines the non-negotiable architectural standards for TodoLista2.
+- All code reviews MUST verify adherence to MVC, DI, and Validation principles.
+- Any deviation from the JSON storage or Soft Delete policy requires a MAJOR version bump and constitutional amendment.
+- Use `GEMINI.md` for project-specific instructions and `.specify/memory/constitution.md` as the source of truth for principles.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2026-05-16 | **Last Amended**: 2026-05-16

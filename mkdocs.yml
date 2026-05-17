@@ -1,0 +1,42 @@
+site_name: Todo Manager Documentation
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - content.code.copy
+
+plugins:
+  - search
+  - i18n:
+      default_language: en
+      languages:
+        en: 
+          name: English
+          link: /en/
+          build_site: true
+        pt: 
+          name: Português
+          link: /pt/
+          build_site: true
+
+nav:
+  - Home: index.md
+  - Contracts:
+    - API v1: contracts/api-v1.md
