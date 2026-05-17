@@ -25,16 +25,16 @@ theme:
 plugins:
   - search
   - i18n:
-      default_language: en
       languages:
-        en: 
+        - locale: en
           name: English
           link: /en/
-          build_site: true
-        pt: 
+          build: true
+          default: true
+        - locale: pt
           name: Português
           link: /pt/
-          build_site: true
+          build: true
 
 nav:
   - Home: index.md
