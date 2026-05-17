@@ -11,6 +11,8 @@ __pycache__/
 *.pyc
 .venv/
 venv/
+venv-docs/
+venv-docs-temp/
 env/
 virtualenv/
 dist/
