@@ -1,5 +1,5 @@
 site_name: Todo Manager Documentation
-site_url: https://thiagodeps.github.io/todo2/
+site_url: https://thiagodeps.github.io/todolist2/
 theme:
   name: material
   palette:
@@ -30,10 +30,22 @@ plugins:
         - locale: en
           name: English
           default: true
-          build: true
         - locale: pt
           name: Português
-          build: true
+      nav_translations:
+        pt:
+          Home: Início
+          Specifications: Especificações
+          Contracts: Contratos
+          Policy: Políticas
+          Spec: Especificação
+          Data Model: Modelo de Dados
+          Research: Pesquisa
+          Implementation Plan: Plano de Implementação
+          Tasks: Tarefas
+          Quickstart: Início Rápido
+          Constitution: Constituição
+          API v1: API v1
 
 nav:
   - Home: index.md
