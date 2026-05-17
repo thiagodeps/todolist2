@@ -1,4 +1,5 @@
 site_name: Todo Manager Documentation
+site_url: https://thiagodeps.github.io/todo2/
 theme:
   name: material
   palette:
@@ -28,15 +29,35 @@ plugins:
       languages:
         - locale: en
           name: English
-          link: /en/
-          build: true
           default: true
         - locale: pt
           name: Português
-          link: /pt/
-          build: true
+      fallback_to_default: true
+      nav_translations:
+        pt:
+          Home: Início
+          Specifications: Especificações
+          Contracts: Contratos
+          Policy: Políticas
+          Spec: Especificação
+          Data Model: Modelo de Dados
+          Research: Pesquisa
+          Implementation Plan: Plano de Implementação
+          Tasks: Tarefas
+          Quickstart: Início Rápido
+          Constitution: Constituição
+          API v1: API v1
 
 nav:
   - Home: index.md
+  - Specifications:
+    - Spec: specs/spec.md
+    - Data Model: specs/data-model.md
+    - Research: specs/research.md
+    - Implementation Plan: specs/plan.md
+    - Tasks: specs/tasks.md
+    - Quickstart: specs/quickstart.md
   - Contracts:
     - API v1: contracts/api-v1.md
+  - Policy:
+    - Constitution: memory/constitution.md

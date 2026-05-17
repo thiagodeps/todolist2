@@ -4,7 +4,7 @@ Local-first To-Do List manager with React and FastAPI.
 
 ## Architecture Principles (Constitution v1.0.0)
 
-This project strictly follows the constitution defined in `.specify/memory/constitution.md`:
+This project strictly follows the constitution defined in [memory/constitution.md](memory/constitution.md):
 
 1.  **MVC Architecture & Layering**: Clear separation between Models, Views, and Controllers/Services.
 2.  **Type-Safe Data Transfer (DTOs & Enums)**: Mandatory use of DTOs and Enums for data consistency.

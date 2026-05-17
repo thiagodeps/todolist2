@@ -4,7 +4,7 @@ Gerenciador de lista de tarefas local-first com React e FastAPI.
 
 ## Princípios de Arquitetura (Constituição v1.0.0)
 
-Este projeto segue rigorosamente a constituição definida em `.specify/memory/constitution.md`:
+Este projeto segue rigorosamente a constituição definida em [memory/constitution.md](memory/constitution.md):
 
 1.  **Arquitetura MVC & Camadas**: Separação clara entre Models, Views e Controllers/Services.
 2.  **Transferência de Dados Type-Safe (DTOs & Enums)**: Uso obrigatório de DTOs e Enums para consistência de dados.
