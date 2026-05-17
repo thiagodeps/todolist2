@@ -1,129 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
-        <loc>https://thiagodeps.github.io/todo2/</loc>
+        <loc>https://thiagodeps.github.io/todolist2/</loc>
         <lastmod>2026-05-17</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://thiagodeps.github.io/todo2/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://thiagodeps.github.io/todo2/pt/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://thiagodeps.github.io/todolist2/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://thiagodeps.github.io/todolist2/pt/"/>
     </url>
     <url>
-        <loc>https://thiagodeps.github.io/todo2/contracts/api-v1/</loc>
+        <loc>https://thiagodeps.github.io/todolist2/contracts/api-v1/</loc>
         <lastmod>2026-05-17</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://thiagodeps.github.io/todo2/contracts/api-v1/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://thiagodeps.github.io/todo2/pt/contracts/api-v1/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://thiagodeps.github.io/todolist2/contracts/api-v1/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://thiagodeps.github.io/todolist2/pt/contracts/api-v1/"/>
     </url>
     <url>
-        <loc>https://thiagodeps.github.io/todo2/memory/constitution/</loc>
+        <loc>https://thiagodeps.github.io/todolist2/memory/constitution/</loc>
         <lastmod>2026-05-17</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://thiagodeps.github.io/todo2/memory/constitution/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://thiagodeps.github.io/todo2/pt/memory/constitution/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://thiagodeps.github.io/todolist2/memory/constitution/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://thiagodeps.github.io/todolist2/pt/memory/constitution/"/>
     </url>
     <url>
-        <loc>https://thiagodeps.github.io/todo2/specs/data-model/</loc>
+        <loc>https://thiagodeps.github.io/todolist2/specs/data-model/</loc>
         <lastmod>2026-05-17</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://thiagodeps.github.io/todo2/specs/data-model/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://thiagodeps.github.io/todo2/pt/specs/data-model/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://thiagodeps.github.io/todolist2/specs/data-model/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://thiagodeps.github.io/todolist2/pt/specs/data-model/"/>
     </url>
     <url>
-        <loc>https://thiagodeps.github.io/todo2/specs/plan/</loc>
+        <loc>https://thiagodeps.github.io/todolist2/specs/plan/</loc>
         <lastmod>2026-05-17</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://thiagodeps.github.io/todo2/specs/plan/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://thiagodeps.github.io/todo2/pt/specs/plan/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://thiagodeps.github.io/todolist2/specs/plan/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://thiagodeps.github.io/todolist2/pt/specs/plan/"/>
     </url>
     <url>
-        <loc>https://thiagodeps.github.io/todo2/specs/quickstart/</loc>
+        <loc>https://thiagodeps.github.io/todolist2/specs/quickstart/</loc>
         <lastmod>2026-05-17</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://thiagodeps.github.io/todo2/specs/quickstart/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://thiagodeps.github.io/todo2/pt/specs/quickstart/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://thiagodeps.github.io/todolist2/specs/quickstart/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://thiagodeps.github.io/todolist2/pt/specs/quickstart/"/>
     </url>
     <url>
-        <loc>https://thiagodeps.github.io/todo2/specs/research/</loc>
+        <loc>https://thiagodeps.github.io/todolist2/specs/research/</loc>
         <lastmod>2026-05-17</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://thiagodeps.github.io/todo2/specs/research/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://thiagodeps.github.io/todo2/pt/specs/research/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://thiagodeps.github.io/todolist2/specs/research/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://thiagodeps.github.io/todolist2/pt/specs/research/"/>
     </url>
     <url>
-        <loc>https://thiagodeps.github.io/todo2/specs/spec/</loc>
+        <loc>https://thiagodeps.github.io/todolist2/specs/spec/</loc>
         <lastmod>2026-05-17</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://thiagodeps.github.io/todo2/specs/spec/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://thiagodeps.github.io/todo2/pt/specs/spec/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://thiagodeps.github.io/todolist2/specs/spec/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://thiagodeps.github.io/todolist2/pt/specs/spec/"/>
     </url>
     <url>
-        <loc>https://thiagodeps.github.io/todo2/specs/tasks/</loc>
+        <loc>https://thiagodeps.github.io/todolist2/specs/tasks/</loc>
         <lastmod>2026-05-17</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://thiagodeps.github.io/todo2/specs/tasks/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://thiagodeps.github.io/todo2/pt/specs/tasks/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://thiagodeps.github.io/todolist2/specs/tasks/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://thiagodeps.github.io/todolist2/pt/specs/tasks/"/>
     </url>
     <url>
-        <loc>https://thiagodeps.github.io/todo2/pt/</loc>
+        <loc>https://thiagodeps.github.io/todolist2/pt/</loc>
         <lastmod>2026-05-17</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://thiagodeps.github.io/todo2/pt/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://thiagodeps.github.io/todo2/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://thiagodeps.github.io/todolist2/pt/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://thiagodeps.github.io/todolist2/"/>
     </url>
     <url>
-        <loc>https://thiagodeps.github.io/todo2/pt/contracts/api-v1/</loc>
+        <loc>https://thiagodeps.github.io/todolist2/pt/contracts/api-v1/</loc>
         <lastmod>2026-05-17</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://thiagodeps.github.io/todo2/pt/contracts/api-v1/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://thiagodeps.github.io/todo2/contracts/api-v1/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://thiagodeps.github.io/todolist2/pt/contracts/api-v1/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://thiagodeps.github.io/todolist2/contracts/api-v1/"/>
     </url>
     <url>
-        <loc>https://thiagodeps.github.io/todo2/pt/memory/constitution/</loc>
+        <loc>https://thiagodeps.github.io/todolist2/pt/memory/constitution/</loc>
         <lastmod>2026-05-17</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://thiagodeps.github.io/todo2/pt/memory/constitution/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://thiagodeps.github.io/todo2/memory/constitution/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://thiagodeps.github.io/todolist2/pt/memory/constitution/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://thiagodeps.github.io/todolist2/memory/constitution/"/>
     </url>
     <url>
-        <loc>https://thiagodeps.github.io/todo2/pt/specs/data-model/</loc>
+        <loc>https://thiagodeps.github.io/todolist2/pt/specs/data-model/</loc>
         <lastmod>2026-05-17</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://thiagodeps.github.io/todo2/pt/specs/data-model/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://thiagodeps.github.io/todo2/specs/data-model/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://thiagodeps.github.io/todolist2/pt/specs/data-model/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://thiagodeps.github.io/todolist2/specs/data-model/"/>
     </url>
     <url>
-        <loc>https://thiagodeps.github.io/todo2/pt/specs/plan/</loc>
+        <loc>https://thiagodeps.github.io/todolist2/pt/specs/plan/</loc>
         <lastmod>2026-05-17</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://thiagodeps.github.io/todo2/pt/specs/plan/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://thiagodeps.github.io/todo2/specs/plan/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://thiagodeps.github.io/todolist2/pt/specs/plan/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://thiagodeps.github.io/todolist2/specs/plan/"/>
     </url>
     <url>
-        <loc>https://thiagodeps.github.io/todo2/pt/specs/quickstart/</loc>
+        <loc>https://thiagodeps.github.io/todolist2/pt/specs/quickstart/</loc>
         <lastmod>2026-05-17</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://thiagodeps.github.io/todo2/pt/specs/quickstart/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://thiagodeps.github.io/todo2/specs/quickstart/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://thiagodeps.github.io/todolist2/pt/specs/quickstart/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://thiagodeps.github.io/todolist2/specs/quickstart/"/>
     </url>
     <url>
-        <loc>https://thiagodeps.github.io/todo2/pt/specs/research/</loc>
+        <loc>https://thiagodeps.github.io/todolist2/pt/specs/research/</loc>
         <lastmod>2026-05-17</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://thiagodeps.github.io/todo2/pt/specs/research/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://thiagodeps.github.io/todo2/specs/research/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://thiagodeps.github.io/todolist2/pt/specs/research/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://thiagodeps.github.io/todolist2/specs/research/"/>
     </url>
     <url>
-        <loc>https://thiagodeps.github.io/todo2/pt/specs/spec/</loc>
+        <loc>https://thiagodeps.github.io/todolist2/pt/specs/spec/</loc>
         <lastmod>2026-05-17</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://thiagodeps.github.io/todo2/pt/specs/spec/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://thiagodeps.github.io/todo2/specs/spec/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://thiagodeps.github.io/todolist2/pt/specs/spec/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://thiagodeps.github.io/todolist2/specs/spec/"/>
     </url>
     <url>
-        <loc>https://thiagodeps.github.io/todo2/pt/specs/tasks/</loc>
+        <loc>https://thiagodeps.github.io/todolist2/pt/specs/tasks/</loc>
         <lastmod>2026-05-17</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://thiagodeps.github.io/todo2/pt/specs/tasks/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://thiagodeps.github.io/todo2/specs/tasks/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://thiagodeps.github.io/todolist2/pt/specs/tasks/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://thiagodeps.github.io/todolist2/specs/tasks/"/>
     </url>
 </urlset>
