@@ -63,26 +63,29 @@ function App() {
 
   return (
     <div style={{ maxWidth: '600px', margin: '40px auto', padding: '0 20px' }}>
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '30px' }}>
+      <a 
+        href="./docs/" 
+        style={{ 
+          position: 'absolute',
+          top: '20px',
+          right: '20px',
+          padding: '8px 16px', 
+          borderRadius: '8px', 
+          backgroundColor: '#646cff', 
+          color: 'white', 
+          textDecoration: 'none',
+          fontSize: '0.9rem',
+          fontWeight: 500,
+          transition: 'background-color 0.2s',
+          display: 'inline-block'
+        }}
+        onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#535bf2'}
+        onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#646cff'}
+      >
+        Documentação
+      </a>
+      <div style={{ marginBottom: '30px' }}>
         <h1 style={{ margin: 0, fontSize: '2.5rem' }}>Todo Manager</h1>
-        <a 
-          href="./docs/" 
-          style={{ 
-            padding: '8px 16px', 
-            borderRadius: '8px', 
-            backgroundColor: '#646cff', 
-            color: 'white', 
-            textDecoration: 'none',
-            fontSize: '0.9rem',
-            fontWeight: 500,
-            transition: 'background-color 0.2s',
-            display: 'inline-block'
-          }}
-          onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#535bf2'}
-          onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#646cff'}
-        >
-          Documentação
-        </a>
       </div>
       <TaskInput onCreate={handleCreate} />
       <FilterBar currentFilter={filter} onFilterChange={setFilter} />
