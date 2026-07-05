@@ -1,5 +1,5 @@
 site_name: Todo Manager Documentation
-site_url: https://thiagodeps.github.io/todolist2/
+site_url: https://thiagodeps.github.io/todolist2/docs/
 theme:
   name: material
   palette:

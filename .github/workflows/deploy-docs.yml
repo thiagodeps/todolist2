@@ -1,4 +1,4 @@
-name: Deploy Documentation
+name: Deploy App and Documentation
 
 on:
   push:
@@ -9,21 +9,52 @@ permissions:
   contents: write
 
 jobs:
-  deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+          cache-dependency-path: frontend/package-lock.json
+
+      - name: Install Frontend Dependencies
+        run: |
+          cd frontend
+          npm ci
+
+      - name: Build Frontend
+        run: |
+          cd frontend
+          npm run build
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.x'
 
-      - name: Install dependencies
+      - name: Install Documentation Dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements-docs.txt
 
+      - name: Build Documentation
+        run: mkdocs build
+
+      - name: Merge Application and Documentation
+        run: |
+          mkdir -p frontend/dist/docs
+          cp -r site/* frontend/dist/docs/
+
+      - name: Add .nojekyll
+        run: touch frontend/dist/.nojekyll
+
       - name: Deploy to GitHub Pages
-        run: mkdocs gh-deploy --force
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./frontend/dist
